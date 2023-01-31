@@ -15,5 +15,8 @@ namespace MinhaDistribuidora.Data
         public DbSet<ClienteModel> Clientes { get; set; }
 
         public DbSet<ProdutoModel> Produtos { get; set; }
+
+        public DbSet<User> Users { get; set; }
+
     }
 }
